@@ -9,7 +9,8 @@ git clone git@github.com:udakshataw/open-ai-test.git
 
 Go to the app and install gems.
 
-```bundle install
+```
+bundle install
 ```
 
 ## Add secrets
