@@ -1,24 +1,27 @@
-# README
+# Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Clone the repo:
+```
+git clone git@github.com:udakshataw/open-ai-test.git
+```
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Go to the app and install gems.
 
-* System dependencies
+```bundle install
+```
 
-* Configuration
+## Add secrets
+Create .env file in the root of the project for secret credentials
 
-* Database creation
+```
+AZURE_OPENAI_ENDPOINT="xxxxx"
+AZURE_OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxx"
+AZURE_OPENAI_DEPLOYMENT="xxxxxxxxxxxxxxxx"
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Run the server
+```
+rails server
+```
