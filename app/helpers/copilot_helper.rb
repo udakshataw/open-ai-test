@@ -1,0 +1,2 @@
+module CopilotHelper
+end
