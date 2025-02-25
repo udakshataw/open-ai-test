@@ -11,4 +11,4 @@ class CopilotController < ApplicationController
       puts ">>>>>>>>>>>>>>>> Response: #{@response} <<<<<<<<<<<"
       render json: { response: @response }
     end
-end  
+end
